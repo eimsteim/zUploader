@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<script type="text/javascript" src="jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="jquery.zUploader.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#btn').click(function(){
+				//alert('jquery works!');
+				$('#div_1').zUploader();
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="div_1" style="width:100px; height:100px; background-color:#000;">
+		
+	</div>
+	<input type="button" value="change color" id="btn"/>
+</body>
+</html>
