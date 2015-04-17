@@ -7,17 +7,16 @@
 	<script type="text/javascript" src="jquery.zUploader.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$('#btn').click(function(){
-				//alert('jquery works!');
-				$('#div_1').zUploader();
-			});
+			$('#div_1').zUploader({'title':'选择文件'});
 		});
 	</script>
+
+	<link rel="stylesheet" type="text/css" href="zUploader.css">
+
+
 </head>
 <body>
-	<div id="div_1" style="width:100px; height:100px; background-color:#000;">
-		
-	</div>
-	<input type="button" value="change color" id="btn"/>
+	<div id="div_1"></div>
+
 </body>
 </html>
